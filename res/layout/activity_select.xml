@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+	<GridView
+	    android:id="@+id/gv_select" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:numColumns="3"
+	    />
+	<Button 
+	    android:id="@+id/bu_album"
+	    android:text="@string/album"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/gv_select"
+	    android:layout_centerHorizontal="true"
+	    />    
+	<Button 
+	    android:id="@+id/bu_camera"
+	    android:text="@string/camera"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/bu_album"
+	    android:layout_centerHorizontal="true"
+	    />
+	<Button 
+	    android:id="@+id/bu_return"
+	    android:text="@string/returnto"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/bu_camera"
+	    android:layout_centerHorizontal="true"
+	    />
+
+</RelativeLayout>
